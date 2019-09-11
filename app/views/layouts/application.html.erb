@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise1Tuesday</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>Super Hero Database</h1>
+      <p class="fancy">
+        <%= link_to 'Super Heroes', super_heros_path %> |
+        <%= link_to 'Super Powers', super_powers_path %>
+      </p>
+    </div>
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,1974 @@
+Started GET "/" for ::1 at 2019-09-10 19:49:49 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.0) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.0) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-10 19:49:53 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.0) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.0) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/rails/actions" for ::1 at 2019-09-10 19:50:00 -0500
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateSuperHeros (20190910222903)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "super_heros" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "real_name" varchar, "hero_name" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190910222903"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateSuperPowers (20190910223302)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "super_powers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" varchar, "super_hero_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_c5d43bef9a"
+FOREIGN KEY ("super_hero_id")
+  REFERENCES "super_heros" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_super_powers_on_super_hero_id" ON "super_powers" ("super_hero_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190910223302"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-11 00:50:00.474484"], ["updated_at", "2019-09-11 00:50:00.474484"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2019-09-10 19:50:00 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/syedyousha/.rbenv/versions/2.5.5/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/syedyousha/.rbenv/versions/2.5.5/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.1ms | Allocations: 205)
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 1030)
+
+
+Started GET "/" for ::1 at 2019-09-10 19:51:15 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/syedyousha/.rbenv/versions/2.5.5/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/syedyousha/.rbenv/versions/2.5.5/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.0ms | Allocations: 533)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 1911)
+
+
+Started GET "/say/hello" for ::1 at 2019-09-10 19:51:16 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/say/hello"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/super_powers" for ::1 at 2019-09-10 19:51:20 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1304)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /Users/syedyousha/Desktop/cis4339-exercise1-f2019/public/packs
+Completed 200 OK in 3465ms (Views: 3461.0ms | ActiveRecord: 0.4ms | Allocations: 1554834)
+
+
+Started GET "/super_powers/new" for ::1 at 2019-09-10 19:51:48 -0500
+Processing by SuperPowersController#new as HTML
+  Rendering super_powers/new.html.erb within layouts/application
+  Rendered super_powers/_form.html.erb (Duration: 19.7ms | Allocations: 8882)
+  Rendered super_powers/new.html.erb within layouts/application (Duration: 21.3ms | Allocations: 9252)
+Completed 200 OK in 44ms (Views: 31.9ms | ActiveRecord: 0.6ms | Allocations: 20239)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 19:51:53 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 649)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 7602)
+
+
+Started GET "/super_powers/new" for ::1 at 2019-09-10 20:06:44 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SuperPowersController#new as HTML
+  Rendering super_powers/new.html.erb within layouts/application
+  Rendered super_powers/_form.html.erb (Duration: 169.8ms | Allocations: 78539)
+  Rendered super_powers/new.html.erb within layouts/application (Duration: 170.7ms | Allocations: 78878)
+Completed 500 Internal Server Error in 177ms (ActiveRecord: 0.0ms | Allocations: 80126)
+
+
+  
+ActionView::Template::Error (undefined method `collection_list' for #<ActionView::Helpers::FormBuilder:0x00007f9e7ccda6c8>
+Did you mean?  collection_select):
+    23: 
+    24:   <div class="field">
+    25:     <%= form.label :super_hero_id %>
+    26:     <%= form.collection_list :super_hero_id, SuperHero.all, :id, :hero_name %>
+    27:   </div>
+    28: 
+    29:   <div class="actions">
+  
+app/views/super_powers/_form.html.erb:26
+app/views/super_powers/_form.html.erb:1
+app/views/super_powers/new.html.erb:3
+Started GET "/super_powers/new" for ::1 at 2019-09-10 20:07:17 -0500
+Processing by SuperPowersController#new as HTML
+  Rendering super_powers/new.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_powers/_form.html.erb:26
+  Rendered super_powers/_form.html.erb (Duration: 10.1ms | Allocations: 6270)
+  Rendered super_powers/new.html.erb within layouts/application (Duration: 10.8ms | Allocations: 6629)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.4ms | Allocations: 14438)
+
+
+Started POST "/super_powers" for ::1 at 2019-09-10 20:09:56 -0500
+Processing by SuperPowersController#create as HTML
+  Parameters: {"authenticity_token"=>"bptdqN4dL0y4MG86nP8SzQ66DyujazKGJ5FvLdjMMBr3scaKWM3Hm1VS4hphiszzaRG1RUxzC3YWzNA30QshQw==", "super_power"=>{"name"=>"Superman", "description"=>"Best superhero"}, "commit"=>"Create Super power"}
+  Rendering super_powers/new.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_powers/_form.html.erb:26
+  Rendered super_powers/_form.html.erb (Duration: 2.7ms | Allocations: 1838)
+  Rendered super_powers/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1936)
+Completed 200 OK in 24ms (Views: 11.6ms | ActiveRecord: 0.1ms | Allocations: 15397)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:09:58 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 926)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 8017)
+
+
+Started GET "/super_powers/new" for ::1 at 2019-09-10 20:10:00 -0500
+Processing by SuperPowersController#new as HTML
+  Rendering super_powers/new.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_powers/_form.html.erb:26
+  Rendered super_powers/_form.html.erb (Duration: 2.9ms | Allocations: 1641)
+  Rendered super_powers/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1738)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.2ms | Allocations: 8697)
+
+
+Started GET "/super_hero" for ::1 at 2019-09-10 20:10:54 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/super_hero"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/super_heros" for ::1 at 2019-09-10 20:11:05 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 899)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms | Allocations: 8443)
+
+
+Started GET "/super_heros/new" for ::1 at 2019-09-10 20:11:06 -0500
+Processing by SuperHerosController#new as HTML
+  Rendering super_heros/new.html.erb within layouts/application
+  Rendered super_heros/_form.html.erb (Duration: 6.8ms | Allocations: 1296)
+  Rendered super_heros/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1652)
+Completed 200 OK in 30ms (Views: 18.5ms | ActiveRecord: 1.5ms | Allocations: 11943)
+
+
+Started POST "/super_heros" for ::1 at 2019-09-10 20:11:19 -0500
+Processing by SuperHerosController#create as HTML
+  Parameters: {"authenticity_token"=>"yQXmvmTEIfXYQy2Yiq6/RkEGPT02Z2UmfBvGevLN/fvF5lSasgO+KIRzgFz4QQbKURVgejDVhfYla33noVzrww==", "super_hero"=>{"real_name"=>"Clark", "hero_name"=>"Superman"}, "commit"=>"Create Super hero"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/super_heros_controller.rb:30:in `block in create'
+  [1m[36mSuperHero Create (0.3ms)[0m  [1m[32mINSERT INTO "super_heros" ("real_name", "hero_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["real_name", "Clark"], ["hero_name", "Superman"], ["created_at", "2019-09-11 01:11:19.998918"], ["updated_at", "2019-09-11 01:11:19.998918"]]
+  ↳ app/controllers/super_heros_controller.rb:30:in `block in create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/super_heros_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/super_heros/1
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms | Allocations: 2656)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 20:11:20 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 283)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 8041)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 20:11:22 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 757)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms | Allocations: 7713)
+
+
+Started GET "/super_hero" for ::1 at 2019-09-10 20:11:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/super_hero"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/super_heros" for ::1 at 2019-09-10 20:11:25 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 749)
+Started GET "/super_heros/new" for ::1 at 2019-09-10 20:11:25 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SuperHerosController#new as HTML
+  Rendering super_heros/new.html.erb within layouts/application
+  Rendered super_heros/_form.html.erb (Duration: 1.1ms | Allocations: 790)
+  Rendered super_heros/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1130)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms | Allocations: 17020)
+
+
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 11948)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:11:26 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 652)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 7615)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:11:31 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 628)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 7580)
+
+
+Started GET "/super_powers/new" for ::1 at 2019-09-10 20:11:33 -0500
+Processing by SuperPowersController#new as HTML
+  Rendering super_powers/new.html.erb within layouts/application
+  [1m[36mSuperHero Load (1.0ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_powers/_form.html.erb:26
+  Rendered super_powers/_form.html.erb (Duration: 7.3ms | Allocations: 1696)
+  Rendered super_powers/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1793)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 1.0ms | Allocations: 8757)
+
+
+Started POST "/super_powers" for ::1 at 2019-09-10 20:11:57 -0500
+Processing by SuperPowersController#create as HTML
+  Parameters: {"authenticity_token"=>"sakOmsRaar+8++GCxo4E4cmarDsSteVAy8cKF1OpMU3OjzhFek1CsuBRGKRpBvmJoY8gGuCCwewD+/e85WiycA==", "super_power"=>{"name"=>"Laser Vision", "description"=>"A red projecting laser", "super_hero_id"=>"1"}, "commit"=>"Create Super power"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/super_powers_controller.rb:30:in `block in create'
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_powers_controller.rb:30:in `block in create'
+  [1m[36mSuperPower Create (0.3ms)[0m  [1m[32mINSERT INTO "super_powers" ("name", "description", "super_hero_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Laser Vision"], ["description", "A red projecting laser"], ["super_hero_id", 1], ["created_at", "2019-09-11 01:11:57.222019"], ["updated_at", "2019-09-11 01:11:57.222019"]]
+  ↳ app/controllers/super_powers_controller.rb:30:in `block in create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/super_powers_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/super_powers/1
+Completed 302 Found in 13ms (ActiveRecord: 1.6ms | Allocations: 8339)
+
+
+Started GET "/super_powers/1" for ::1 at 2019-09-10 20:11:57 -0500
+Processing by SuperPowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers" WHERE "super_powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_powers_controller.rb:67:in `set_super_power'
+  Rendering super_powers/show.html.erb within layouts/application
+  Rendered super_powers/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 307)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 8058)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" ORDER BY "super_heros"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/super_powers" for ::1 at 2019-09-10 20:16:27 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 7865)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.6ms | Allocations: 12077)
+
+
+  
+ActionView::Template::Error (undefined method `hero_name' for 1:Integer):
+    17:       <tr>
+    18:         <td><%= super_power.name %></td>
+    19:         <td><%= super_power.description %></td>
+    20:         <td><%= super_power.super_hero_id.hero_name %></td>
+    21:         <td><%= link_to 'Show', super_power %></td>
+    22:         <td><%= link_to 'Edit', edit_super_power_path(super_power) %></td>
+    23:         <td><%= link_to 'Destroy', super_power, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/super_powers/index.html.erb:20
+app/views/super_powers/index.html.erb:16
+Started GET "/super_powers/1" for ::1 at 2019-09-10 20:16:30 -0500
+Processing by SuperPowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers" WHERE "super_powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_powers_controller.rb:67:in `set_super_power'
+  Rendering super_powers/show.html.erb within layouts/application
+  Rendered super_powers/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 326)
+Completed 200 OK in 881ms (Views: 877.4ms | ActiveRecord: 0.2ms | Allocations: 1532843)
+
+
+Started GET "/super_powers/1/edit" for ::1 at 2019-09-10 20:16:32 -0500
+Processing by SuperPowersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperPower Load (0.4ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers" WHERE "super_powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_powers_controller.rb:67:in `set_super_power'
+  Rendering super_powers/edit.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_powers/_form.html.erb:26
+  Rendered super_powers/_form.html.erb (Duration: 16.3ms | Allocations: 8221)
+  Rendered super_powers/edit.html.erb within layouts/application (Duration: 18.8ms | Allocations: 8638)
+Completed 200 OK in 35ms (Views: 29.4ms | ActiveRecord: 1.0ms | Allocations: 16238)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:16:34 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2146)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 2641)
+
+
+  
+ActionView::Template::Error (undefined method `hero_name' for 1:Integer):
+    17:       <tr>
+    18:         <td><%= super_power.name %></td>
+    19:         <td><%= super_power.description %></td>
+    20:         <td><%= super_power.super_hero_id.hero_name %></td>
+    21:         <td><%= link_to 'Show', super_power %></td>
+    22:         <td><%= link_to 'Edit', edit_super_power_path(super_power) %></td>
+    23:         <td><%= link_to 'Destroy', super_power, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/super_powers/index.html.erb:20
+app/views/super_powers/index.html.erb:16
+Started GET "/super_powers" for ::1 at 2019-09-10 20:16:50 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2135)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2618)
+
+
+  
+ActionView::Template::Error (undefined method `hero_name' for 1:Integer):
+    17:       <tr>
+    18:         <td><%= super_power.name %></td>
+    19:         <td><%= super_power.description %></td>
+    20:         <td><%= super_power.super_hero_id.hero_name %></td>
+    21:         <td><%= link_to 'Show', super_power %></td>
+    22:         <td><%= link_to 'Edit', edit_super_power_path(super_power) %></td>
+    23:         <td><%= link_to 'Destroy', super_power, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/super_powers/index.html.erb:20
+app/views/super_powers/index.html.erb:16
+Started GET "/super_powers" for ::1 at 2019-09-10 20:16:52 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2138)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 2629)
+
+
+  
+ActionView::Template::Error (undefined method `hero_name' for 1:Integer):
+    17:       <tr>
+    18:         <td><%= super_power.name %></td>
+    19:         <td><%= super_power.description %></td>
+    20:         <td><%= super_power.super_hero_id.hero_name %></td>
+    21:         <td><%= link_to 'Show', super_power %></td>
+    22:         <td><%= link_to 'Edit', edit_super_power_path(super_power) %></td>
+    23:         <td><%= link_to 'Destroy', super_power, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/super_powers/index.html.erb:20
+app/views/super_powers/index.html.erb:16
+Started GET "/super_powers" for ::1 at 2019-09-10 20:18:10 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 9534)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.6ms | Allocations: 13746)
+
+
+  
+ActionView::Template::Error (undefined method `hero_name' for #<SuperPower:0x00007fae771e2a30>):
+    17:       <tr>
+    18:         <td><%= super_power.name %></td>
+    19:         <td><%= super_power.description %></td>
+    20:         <td><%= super_power.hero_name %></td>
+    21:         <td><%= link_to 'Show', super_power %></td>
+    22:         <td><%= link_to 'Edit', edit_super_power_path(super_power) %></td>
+    23:         <td><%= link_to 'Destroy', super_power, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/super_powers/index.html.erb:20
+app/views/super_powers/index.html.erb:16
+Started GET "/super_powers" for ::1 at 2019-09-10 20:18:13 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3805)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms | Allocations: 4317)
+
+
+  
+ActionView::Template::Error (undefined method `hero_name' for #<SuperPower:0x00007fae771d8f08>):
+    17:       <tr>
+    18:         <td><%= super_power.name %></td>
+    19:         <td><%= super_power.description %></td>
+    20:         <td><%= super_power.hero_name %></td>
+    21:         <td><%= link_to 'Show', super_power %></td>
+    22:         <td><%= link_to 'Edit', edit_super_power_path(super_power) %></td>
+    23:         <td><%= link_to 'Destroy', super_power, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/super_powers/index.html.erb:20
+app/views/super_powers/index.html.erb:16
+Started GET "/super_powers" for ::1 at 2019-09-10 20:18:27 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 3780)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms | Allocations: 4271)
+
+
+  
+ActionView::Template::Error (undefined method `hero_name' for #<SuperPower:0x00007fae74bc1b80>):
+    17:       <tr>
+    18:         <td><%= super_power.name %></td>
+    19:         <td><%= super_power.description %></td>
+    20:         <td><%= super_power.hero_name %></td>
+    21:         <td><%= link_to 'Show', super_power %></td>
+    22:         <td><%= link_to 'Edit', edit_super_power_path(super_power) %></td>
+    23:         <td><%= link_to 'Destroy', super_power, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/super_powers/index.html.erb:20
+app/views/super_powers/index.html.erb:16
+Started GET "/super_powers" for ::1 at 2019-09-10 20:19:10 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 13147)
+Completed 200 OK in 925ms (Views: 922.7ms | ActiveRecord: 0.8ms | Allocations: 1545223)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:25:05 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1872)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.3ms | Allocations: 11090)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"super_heros"}, missing required keys: [:id]):
+    12:   <body>
+    13:     <div id="header">
+    14:       <p class="fancy">
+    15:         <% link_to 'Super Heroes', super_hero_path %>
+    16:         <%= link_to 'Super Powers', super_powers_path %>
+    17:       </p>
+    18:     </div>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/super_powers" for ::1 at 2019-09-10 20:26:35 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1729)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 9719)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:26:37 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1449)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 8443)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:28:32 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1729)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.2ms | Allocations: 9704)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 20:29:41 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1737)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.2ms | Allocations: 9726)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:01:27 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1764)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.3ms | Allocations: 9739)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:01:50 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1448)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 8447)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:01:51 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1128)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms | Allocations: 8715)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:01:53 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1452)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms | Allocations: 8452)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:01:54 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 750)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.1ms | Allocations: 7737)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:01:55 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1443)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.3ms | Allocations: 8430)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:01:56 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 750)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.1ms | Allocations: 7742)
+
+
+Started GET "/super_heros/new" for ::1 at 2019-09-10 21:01:57 -0500
+Processing by SuperHerosController#new as HTML
+  Rendering super_heros/new.html.erb within layouts/application
+  Rendered super_heros/_form.html.erb (Duration: 7.8ms | Allocations: 3131)
+  Rendered super_heros/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 3494)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 10643)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:01:59 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 755)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.1ms | Allocations: 7754)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:03:00 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1128)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 2371)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:05:04 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1111)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2100)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros" for ::1 at 2019-09-10 21:05:14 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 749)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 7739)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:05:17 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1111)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms | Allocations: 2104)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros" for ::1 at 2019-09-10 21:05:20 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 749)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.1ms | Allocations: 7742)
+
+
+Started GET "/super_heros/1/edit" for ::1 at 2019-09-10 21:05:23 -0500
+Processing by SuperHerosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (1.8ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/edit.html.erb within layouts/application
+  Rendered super_heros/_form.html.erb (Duration: 2.6ms | Allocations: 858)
+  Rendered super_heros/edit.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1129)
+Completed 200 OK in 30ms (Views: 20.3ms | ActiveRecord: 1.8ms | Allocations: 8786)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:05:25 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1471)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.5ms | Allocations: 8464)
+
+
+Started GET "/super_powers/1" for ::1 at 2019-09-10 21:05:26 -0500
+Processing by SuperPowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers" WHERE "super_powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_powers_controller.rb:67:in `set_super_power'
+  Rendering super_powers/show.html.erb within layouts/application
+  Rendered super_powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 304)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.2ms | Allocations: 8070)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:05:33 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1111)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms | Allocations: 2105)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros" for ::1 at 2019-09-10 21:13:43 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 777)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 7774)
+
+
+Started GET "/super_heros/1/edit" for ::1 at 2019-09-10 21:13:46 -0500
+Processing by SuperHerosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (1.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/edit.html.erb within layouts/application
+  Rendered super_heros/_form.html.erb (Duration: 2.5ms | Allocations: 831)
+  Rendered super_heros/edit.html.erb within layouts/application (Duration: 3.2ms | Allocations: 958)
+Completed 200 OK in 26ms (Views: 18.3ms | ActiveRecord: 1.3ms | Allocations: 8469)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:17:13 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1111)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 2105)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros" for ::1 at 2019-09-10 21:17:23 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 766)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.3ms | Allocations: 7760)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:19:44 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1125)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms | Allocations: 2870)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<!--<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>-->
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <!--<%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>-->
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros" for ::1 at 2019-09-10 21:19:50 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1020)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms | Allocations: 8390)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:23:58 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SuperHerosController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 755)
+
+
+  
+SyntaxError (/Users/syedyousha/Desktop/cis4339-exercise1-f2019/app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+    has_many: SuperPowers
+            ^):
+  
+app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+app/controllers/super_heros_controller.rb:7:in `index'
+Started GET "/super_heros" for ::1 at 2019-09-10 21:24:50 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SuperHerosController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 753)
+
+
+  
+SyntaxError (/Users/syedyousha/Desktop/cis4339-exercise1-f2019/app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+    has_many: super_powers
+            ^):
+  
+app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+app/models/super_hero.rb:2: syntax error, unexpected ':', expecting keyword_end
+app/controllers/super_heros_controller.rb:7:in `index'
+Started GET "/super_heros" for ::1 at 2019-09-10 21:25:42 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5230)
+Completed 200 OK in 952ms (Views: 938.6ms | ActiveRecord: 0.6ms | Allocations: 1540284)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:25:45 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.4ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3899)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms | Allocations: 5804)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:25:47 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1112)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 2115)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_powers" for ::1 at 2019-09-10 21:26:04 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 9317)
+Completed 200 OK in 24ms (Views: 19.9ms | ActiveRecord: 0.7ms | Allocations: 18114)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:26:06 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (1.5ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 766)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 1.5ms | Allocations: 7781)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:26:08 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1111)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 2105)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros" for ::1 at 2019-09-10 21:26:10 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 749)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 7742)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:26:11 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1480)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms | Allocations: 8472)
+
+
+Started GET "/super_powers/1" for ::1 at 2019-09-10 21:26:12 -0500
+Processing by SuperPowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers" WHERE "super_powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_powers_controller.rb:67:in `set_super_power'
+  Rendering super_powers/show.html.erb within layouts/application
+  Rendered super_powers/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 306)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 8067)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:26:15 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.3ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 774)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms | Allocations: 7773)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:26:16 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1111)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2106)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/__web_console/repl_sessions/609c779aa9c52acedc9fa7106f5d19fa/trace" for ::1 at 2019-09-10 21:26:22 -0500
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:28:57 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1125)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 2869)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<%= @super_hero.super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <%= @super_hero.super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:29:34 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1122)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 2866)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<% @super_hero.super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>,
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <% @super_hero.super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>,
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros" for ::1 at 2019-09-10 21:29:42 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1020)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.1ms | Allocations: 8394)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:29:44 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1108)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2104)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<% @super_hero.super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>,
+  <%= sp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <% @super_hero.super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>,
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    
+20:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+21:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:32:56 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1121)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 2865)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<% @super_hero.super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>,
+  <%= sp.description %>
+</p>
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <% @super_hero.super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>,
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+20:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/super_powers" for ::1 at 2019-09-10 21:34:40 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1728)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.2ms | Allocations: 9542)
+
+
+Started GET "/super_powers/1" for ::1 at 2019-09-10 21:34:44 -0500
+Processing by SuperPowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperPower Load (0.8ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers" WHERE "super_powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_powers_controller.rb:67:in `set_super_power'
+  Rendering super_powers/show.html.erb within layouts/application
+  Rendered super_powers/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 297)
+Completed 200 OK in 23ms (Views: 14.3ms | ActiveRecord: 0.8ms | Allocations: 7940)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:34:45 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1446)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.4ms | Allocations: 8439)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:34:47 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1443)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 8431)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:34:48 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1444)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 8435)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:34:49 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1443)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 8437)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:34:50 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1443)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.4ms | Allocations: 8435)
+
+
+Started GET "/super_powers" for ::1 at 2019-09-10 21:34:50 -0500
+Processing by SuperPowersController#index as HTML
+  Rendering super_powers/index.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.1ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers"[0m
+  ↳ app/views/super_powers/index.html.erb:16
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/super_powers/index.html.erb:20
+  Rendered super_powers/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1443)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms | Allocations: 8439)
+
+
+Started GET "/super_heros" for ::1 at 2019-09-10 21:34:51 -0500
+Processing by SuperHerosController#index as HTML
+  Rendering super_heros/index.html.erb within layouts/application
+  [1m[36mSuperHero Load (0.2ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros"[0m
+  ↳ app/views/super_heros/index.html.erb:15
+  Rendered super_heros/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1021)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.2ms | Allocations: 8155)
+
+
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:34:53 -0500
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1107)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 2097)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @super_hero.real_name %>
+</p>
+
+<p>
+  <strong>Hero name:</strong>
+  <%= @super_hero.hero_name %>
+</p>
+
+<% @super_hero.super_powers.each do |sp| %>
+<p>
+  <%= sp.name %>,
+  <%= sp.description %>
+</p>
+
+<%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+<%= link_to 'Back', super_heros_path %>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <p>
+4:      <strong>Real name:</strong>
+5:      <%= @super_hero.real_name %>
+6:    </p>
+7:    
+8:    <p>
+9:      <strong>Hero name:</strong>
+10:      <%= @super_hero.hero_name %>
+11:    </p>
+12:    
+13:    <% @super_hero.super_powers.each do |sp| %>
+14:    <p>
+15:      <%= sp.name %>,
+16:      <%= sp.description %>
+17:    </p>
+18:    
+19:    <%= link_to 'Edit', edit_super_hero_path(@super_hero) %> |
+20:    <%= link_to 'Back', super_heros_path %>
+  
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/super_heros/show.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/__web_console/repl_sessions/9b5ac480638ac3fd0907e383abc7da7a/trace" for ::1 at 2019-09-10 21:35:37 -0500
+Started POST "/__web_console/repl_sessions/9b5ac480638ac3fd0907e383abc7da7a/trace" for ::1 at 2019-09-10 21:35:40 -0500
+Started POST "/__web_console/repl_sessions/9b5ac480638ac3fd0907e383abc7da7a/trace" for ::1 at 2019-09-10 21:35:41 -0500
+Started GET "/super_heros/1" for ::1 at 2019-09-10 21:42:04 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SuperHerosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSuperHero Load (0.1ms)[0m  [1m[34mSELECT "super_heros".* FROM "super_heros" WHERE "super_heros"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/super_heros_controller.rb:67:in `set_super_hero'
+  Rendering super_heros/show.html.erb within layouts/application
+  [1m[36mSuperPower Load (0.2ms)[0m  [1m[34mSELECT "super_powers".* FROM "super_powers" WHERE "super_powers"."super_hero_id" = ?[0m  [["super_hero_id", 1]]
+  ↳ app/views/super_heros/show.html.erb:13
+  Rendered super_heros/show.html.erb within layouts/application (Duration: 11.7ms | Allocations: 7087)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.3ms | Allocations: 15500)
+
+
